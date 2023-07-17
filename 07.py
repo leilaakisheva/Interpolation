@@ -11,26 +11,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import timeit
 
-"""#**Assignment 7**
-###**Abstract**
-In this assignment we interpolate the given function using various methods and then compare their efficiency. It was found that cubic interpolation of logarithm of the given function is the most efficient method in terms of computational cost.
-
-###**Introduction**
-In this assignment, we are given the values of a function f(x) at 9 data points and asked to interpolate between them using linear and cubic splines. We will then plot all the interpolating functions obtained from both methods and perform a visual assessment of their quality. After, it is asked to compare the quantitative accuracy and computational cost of both methods to determine which one is better.
-
-The main hypothesis is that cubic spline interpolation of log of our function will work out the best because it provides a smooth and continuous approximation of the underlying data.
-
-By using the logarithm of the function as the input to the interpolation algorithm, we can further improve the accuracy and stability of the interpolation, especially when dealing with data that exhibits large variations or extreme values. Overall, the cubic spline interpolation of the logarithm of our function is expected to provide the most reliable and efficient method for approximating the function over a wide range of input values.
-
-###**Methods**
-
-I defined functions f(x), Gauss, Cubic, linear_spline, and rmsd.
-
-Note: the code for Gauss function is taken from the Assignment 4.
-
-All the neccesary information and steps are provided in the comments
-"""
-
 # defining the function to be interpolated
 def f(x):
     return np.exp(x + x**2)
