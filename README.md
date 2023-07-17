@@ -1,7 +1,7 @@
 # Interpolation
 In this assignment we interpolate the given function using various methods and then compare their efficiency. It was found that cubic interpolation of logarithm of the given function is the most efficient method in terms of computational cost.
 
-## ntroduction
+## Introduction
 In this assignment, we are given the values of a function f(x) at 9 data points and asked to interpolate between them using linear and cubic splines. We will then plot all the interpolating functions obtained from both methods and perform a visual assessment of their quality. After, it is asked to compare the quantitative accuracy and computational cost of both methods to determine which one is better.
 
 The main hypothesis is that cubic spline interpolation of log of our function will work out the best because it provides a smooth and continuous approximation of the underlying data.
