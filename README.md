@@ -10,12 +10,18 @@ By using the logarithm of the function as the input to the interpolation algorit
 
 ![image](https://github.com/leilaakisheva/Interpolation/assets/128895782/453bacab-6932-47b1-a3b0-40c13b15322a)
 
+
+![Screenshot from 2023-07-17 16-48-05](https://github.com/leilaakisheva/Interpolation/assets/128895782/be435ceb-2756-418d-aafa-5cf86d2f46f8)
+
+
+
 Method           RMSD         Time         Cost
 ----------  ---------  -----------  -----------
 Cubic        6.9556    0.000901479  1.2366e-06
 Linear      11.7389    0.000238126  2.97658e-05
 Log Cubic    0.378471  0.000328589  4.50739e-07
 Log Linear   0.982317  0.0166966    0.00208708
+
 
 
 ## Results
